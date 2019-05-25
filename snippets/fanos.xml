@@ -60,8 +60,7 @@
       <remove-project name="LineageOS/android_packages_apps_ExactCalculator" /> 
       <remove-project name="LineageOS/android_packages_apps_Exchange" />
       <remove-project name="LineageOS/android_packages_apps_EmergencyInfo" /> 
-      <remove-project name="LineageOS/android_packages_apps_Eleven" />
-      <remove-project name="LineageOS/android_packages_apps_Easter" /> 
+      <remove-project name="LineageOS/android_packages_apps_Eleven" />      
       <remove-project name="LineageOS/android_packages_apps_FMRadio" />
       <remove-project name="LineageOS/android_packages_apps_Gallery2" />
       <remove-project name="LineageOS/android_packages_apps_Recorder" />
