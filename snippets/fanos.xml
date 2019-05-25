@@ -12,6 +12,31 @@
       sync-c="true" 
       sync-j="7" />
 
+      <!-- ############################################################################################# -->
+      <!-- ####################           Remove projects not required              #################### -->
+      <!-- ############################################################################################# -->
+      <remove-project name="LineageOS/android_device_google_atv"  />
+      <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+      <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+      <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+      <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+      <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+      <remove-project name="platform/prebuilts/gdb/darwin-x86"  />
+      <remove-project name="platform/prebuilts/go/darwin-x86" />
+      <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+
+      <remove-project name="LineageOS/android_frameworks_base" />
+      <remove-project name="LineageOS/android_external_chromium-webview" />
+      <remove-project name="platform/external/webview_support_interfaces" />
+
+      <remove-project name="LineageOS/contributors-cloud-generator" />
+      <remove-project name="LineageOS/lineage_wiki" />
+      <remove-project name="LineageOS/slackbot" />
+      <remove-project name="LineageOS/cve_tracker" />
+      <remove-project name="LineageOS/hudson" />
+      <!-- ############################################################################################# -->
+      <!-- ############################################################################################# -->
+
       <project name="LineageOS/android_device_xiaomi_equuleus" path="device/xiaomi/equuleus" remote="lineage" revision="lineage-16.0" />
       <project name="LineageOS/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="lineage" revision="lineage-16.0" />
       <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="lineage" revision="lineage-16.0" />
@@ -26,28 +51,6 @@
       <project name="SimpleMobileTools/Simple-Clock" path="external/simple-mobile-tools/simple-clock" remote="github" revision="master" />
       <project name="SimpleMobileTools/Simple-Gallery" path="external/simple-mobile-tools/simple-gallery" remote="github" revision="master" />
 
-
-      <!-- ### Remove Darwin stuff ###-->
-      <remove-project name="LineageOS/android_device_google_atv"  />
-      <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
-      <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-      <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-      <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-      <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-      <remove-project name="platform/prebuilts/gdb/darwin-x86"  />
-      <remove-project name="platform/prebuilts/go/darwin-x86" />
-      <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
-      <remove-project name="LineageOS/android_frameworks_base" />      
-
-      <!-- ### Remove lineage repos ###-->
-      <remove-project name="LineageOS/contributors-cloud-generator" />
-      <remove-project name="LineageOS/lineage_wiki" />
-      <remove-project name="LineageOS/slackbot" />
-      <remove-project name="LineageOS/cve_tracker" />
-      <remove-project name="LineageOS/hudson" />
-      <remove-project name="LineageOS/android_frameworks_base" />
-      <remove-project name="LineageOS/android_external_chromium-webview" />
-      <remove-project name="platform/external/webview_support_interfaces" />
 
       <!-- ### Debloating ### -->
       <remove-project name="LineageOS/android_packages_apps_AudioFX" />
