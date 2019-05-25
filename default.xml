@@ -11,6 +11,9 @@
 			revision="refs/heads/lineage-16.0"
 			fetch="https://github.com/" />
 
+			<remote name="origin" 
+				fetch="https://github.com/frankclaassens/" />
+
 			<default remote="lineage" 
 				revision="refs/heads/lineage-16.0"
 				sync-c="true" 
