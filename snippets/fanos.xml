@@ -35,7 +35,7 @@
 
     <project name="FaN11X/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="fanos" revision="lineage-16.0" />
     <project name="FaN11X/android_frameworks_base" path="frameworks/base" remote="fanos" revision="lineage-16.0" />
-    <project name="FaN11X/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="fanos" revision="master" />
+    <project name="FaN11X/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="fanos" revision="lineage-16.0" />
 
     <project name="SimpleMobileTools/Simple-Commons" path="external/simple-mobile-tools/simple-commons" remote="github" revision="master" />
     <project name="SimpleMobileTools/Simple-Clock" path="external/simple-mobile-tools/simple-clock" remote="github" revision="master" />
