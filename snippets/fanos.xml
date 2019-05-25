@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!--   <remote name="fanos" 
-    revision="lineage-16.0" 
-    fetch="https://github.com/FaN11X/"
-    sync-c="true" sync-j="7" /> -->
+  <remote name="fanos" revision="lineage-16.0" fetch="https://github.com/FaN11X/" sync-c="true" sync-j="7" />
 
     <!-- ############################################################################################# -->
     <!-- ####################           Remove projects not required              #################### -->
@@ -36,9 +33,9 @@
     <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="lineage" revision="lineage-16.0" />
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" revision="lineage-16.0" />
 
-    <project name="frankclaassens/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="origin" revision="lineage-16.0" />
-    <project name="frankclaassens/android_frameworks_base" path="frameworks/base" remote="origin" revision="lineage-16.0" />
-    <project name="frankclaassens/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="origin" revision="master" />
+    <project name="FaN11X/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="fanos" revision="lineage-16.0" />
+    <project name="FaN11X/android_frameworks_base" path="frameworks/base" remote="fanos" revision="lineage-16.0" />
+    <project name="FaN11X/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="fanos" revision="master" />
 
     <project name="SimpleMobileTools/Simple-Commons" path="external/simple-mobile-tools/simple-commons" remote="github" revision="master" />
     <project name="SimpleMobileTools/Simple-Clock" path="external/simple-mobile-tools/simple-clock" remote="github" revision="master" />
