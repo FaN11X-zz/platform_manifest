@@ -110,7 +110,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="lineage" />
 
   <!-- Infrastructure -->
-  <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" remote="lineage" />
+<!--   <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" remote="lineage" />
   <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" remote="lineage" />
   <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" remote="lineage" />
   <project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" remote="lineage" />
@@ -118,7 +118,7 @@
   <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" remote="lineage" />
   <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" remote="lineage" />
   <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" remote="lineage" />
-  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" remote="lineage" />
+  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" remote="lineage" /> -->
 
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" remote="lineage" />
