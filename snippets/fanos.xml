@@ -29,12 +29,12 @@
     <!-- ############################################################################################# -->
     <!-- ############################################################################################# -->
     
-    <project name="LineageOS/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="lineage" revision="lineage-16.0" />
-    <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="lineage" revision="lineage-16.0" />
+    <project name="LineageOS/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="lineage" revision="lineage-16.0" clone-depth="1" />
+    <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="lineage" revision="lineage-16.0" clone-depth="1" />
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" revision="lineage-16.0" />
 
     <project name="FaN11X/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-16.0" />
-    <project name="FaN11X/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-16.0" />
+    <project name="FaN11X/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-16.0" clone-depth="1" />
     <project name="FaN11X/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="github" revision="lineage-16.0" />
     <project name="FaN11X/android_device_xiaomi_equuleus" path="device/xiaomi/equuleus" remote="github" revision="lineage-16.0" />
 
@@ -51,11 +51,11 @@
 
     <!-- ### Debloating ### -->
     <remove-project name="LineageOS/android_packages_apps_AudioFX" />
-    <!-- <remove-project name="LineageOS/android_packages_apps_Calendar" /> -->
-    <!-- <remove-project name="LineageOS/android_packages_apps_Contacts" /> -->
+    <remove-project name="LineageOS/android_packages_apps_Calendar" />
+    <remove-project name="LineageOS/android_packages_apps_Contacts" />
     <remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
     <remove-project name="LineageOS/android_packages_apps_ExactCalculator" /> 
-    <!-- <remove-project name="LineageOS/android_packages_apps_Exchange" /> -->
+    <remove-project name="LineageOS/android_packages_apps_Exchange" />
     <remove-project name="LineageOS/android_packages_apps_EmergencyInfo" /> 
     <remove-project name="LineageOS/android_packages_apps_Eleven" />      
     <remove-project name="LineageOS/android_packages_apps_FMRadio" />
@@ -68,24 +68,18 @@
     <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
     <remove-project name="LineageOS/android_packages_apps_TV" />
     <remove-project name="LineageOS/android_packages_apps_TvSettings" />
-    <!-- <remove-project name="LineageOS/android_packages_apps_Messaging" /> -->
-    <!-- <remove-project name="LineageOS/android_packages_apps_SetupWizard" /> -->
-    <!-- <remove-project name="LineageOS/android_packages_apps_DeskClock" /> -->
+    <remove-project name="LineageOS/android_packages_apps_Messaging" />
+    <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+    <remove-project name="LineageOS/android_packages_apps_DeskClock" />
 
     <!-- <remove-project name="LineageOS/android_packages_screensavers_PhotoTable" /> -->
     <!-- <remove-project name="LineageOS/android_packages_screensavers_Basic" /> -->
 
     <!-- <remove-project name="LineageOS/android_packages_services_BuiltInPrintService" /> -->
 
-    <!-- <remove-project name="LineageOS/android_packages_providers_PartnerBookmarksProvider" /> -->
+    <remove-project name="LineageOS/android_packages_providers_PartnerBookmarksProvider" />
     <remove-project name="LineageOS/android_packages_providers_WeatherProvider" />
-    <!-- <remove-project name="LineageOS/android_packages_providers_TvProvider" /> -->
-
-
-
-
-
-
+    <remove-project name="LineageOS/android_packages_providers_TvProvider" />
 
 
     <!-- <remove-project name="LineageOS/android_packages_apps_OpenWeatherMapProvider" /> -->
